@@ -1,0 +1,15 @@
+--- metadata/cubereflex.xml.in~	2007-08-13 13:12:47.000000000 +0100
++++ metadata/cubereflex.xml.in	2007-09-17 09:13:10.000000000 +0100
+@@ -18,9 +18,9 @@
+ 				<_short>Ground color(near)</_short>
+ 				<_long>Color of the ground (near).</_long>
+ 				<default>
+-					<red>0xb333</red>
+-					<green>0xb333</green>
+-					<blue>0xb333</blue>
++					<red>0x1fff</red>
++					<green>0x4111</green>
++					<blue>0xe000</blue>
+ 					<alpha>0xcccc</alpha>
+ 				</default>
+ 			</option>
