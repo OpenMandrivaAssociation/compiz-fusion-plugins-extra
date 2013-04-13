@@ -1,0 +1,13 @@
+diff -auprN a/src/notification/notification.c b/src/notification/notification.c
+--- src/notification/notification.c	2011-04-21 15:51:08.000000000 +0400
++++ src/notification/notification.c	2013-03-30 14:06:57.000000000 +0400
+@@ -104,9 +104,6 @@ notifyLogMessage (const char   *componen
+     n = notify_notification_new (logLevel,
+                                  message,
+                                  iconUri
+-#if !defined (HAVE_LIBNOTIFY_0_6_1)
+-                                 , NULL
+-#endif
+                                  );
+ 
+     notify_notification_set_timeout (n, nd->timeout);
