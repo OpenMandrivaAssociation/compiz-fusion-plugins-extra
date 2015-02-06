@@ -8,7 +8,7 @@
 Summary:	Compiz Fusion Main Plugin Set for compiz
 Name:		compiz-fusion-plugins-extra
 Version:	0.8.8
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		System/X11
 URL:		http://www.compiz.org/
