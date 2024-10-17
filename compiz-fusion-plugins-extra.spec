@@ -11,7 +11,7 @@ Version:	0.8.8
 Release:	2
 License:	GPLv2
 Group:		System/X11
-URL:		http://www.compiz.org/
+URL:		https://www.compiz.org/
 Source0:	http://releases.compiz.org/components/plugins-extra/%{oname}-%{version}.tar.bz2
 Patch0:		compiz-plugins-extra-0.8.8-libnotify0.7.patch
 BuildRequires:	intltool
